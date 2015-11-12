@@ -15,9 +15,9 @@ class poligono : public QDialog
 
 public:
     explicit poligono(QWidget *parent = 0);
-
     ~poligono();
 
+  //Variables que se van a utilizar en el programa
 private:
     Ui::poligono *ui;
     bool dibujaPoli = false;
@@ -28,10 +28,11 @@ private:
 
 
 protected:
-    void paintEvent(QPaintEvent *e);
-    void drawPoligono(int lados, QPainter & painter);
+    void paintEvent(QPaintEvent *e); //Función que pinta
+    void drawPoligono(int lados, QPainter & painter); //Función para hacer el poligono
 
 
+    //Botones de la interfaz de el polígono
 private slots:
     void on_pushButton_clicked();
     void on_pushButton_2_clicked();
