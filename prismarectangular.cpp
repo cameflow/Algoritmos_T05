@@ -1,5 +1,7 @@
 #include "prismarectangular.h"
 #include "ui_prismarectangular.h"
+#include <QMessageBox>
+#include <math.h>
 
 PrismaRectangular::PrismaRectangular(QWidget *parent) :
     QDialog(parent),
@@ -133,6 +135,12 @@ void PrismaRectangular::on_pushButton_2_clicked()
     QTransform translate;
     translate.translate(_xStr, _yStr);
     transforms.push_back(translate);;
+  }
+  else
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa unos valores para la traslación");
+    msgBox.exec();
   }
   update();
 }

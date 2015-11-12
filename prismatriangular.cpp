@@ -130,6 +130,12 @@ void prismaTriangular::on_pushButton_2_clicked()
     translate.translate(_xStr, _yStr);
     transforms.push_back(translate);;
   }
+  else
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa unos valores para la traslación");
+    msgBox.exec();
+  }
   update();
 }
 

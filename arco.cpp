@@ -129,6 +129,26 @@ void arco::on_pushButton_clicked()
   //Borra todo el vector de transformaciones
   //Es para darle reset al poligono
   //Vuelve a ajustar el centro
+  QString r = ui->radioTxt->toPlainText();
+  QString a = ui->angulosTxt->toPlainText();
+  if(r.isEmpty() && a.isEmpty())
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa el radio y el ángulo");
+    msgBox.exec();
+  }
+  else if (r.isEmpty())
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa el radio");
+    msgBox.exec();
+  }
+  else if (a.isEmpty())
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa el ángulo");
+    msgBox.exec();
+  }
   dibujaArco = !dibujaArco;
   transforms.clear();
   QTransform center;
@@ -181,6 +201,12 @@ void arco::on_pushButton_2_clicked()
     QTransform translate;
     translate.translate(_xStr, _yStr);
     transforms.push_back(translate);
+  }
+  else
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa unos valores para la traslación");
+    msgBox.exec();
   }
   update();
 }

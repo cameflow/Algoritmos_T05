@@ -82,6 +82,13 @@ void poligono::on_pushButton_clicked()
   //Borra todo el vector de transformaciones
   //Es para darle reset al poligono
   //Vuelve a ajustar el centro
+  QString l = ui->ladosPoliTxt->toPlainText();
+  if(l.isEmpty())
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa el número de lados");
+    msgBox.exec();
+  }
   dibujaPoli=!dibujaPoli;
   transforms.clear();
   QTransform center;
@@ -134,6 +141,12 @@ void poligono::on_pushButton_5_clicked()
     QTransform translate;
     translate.translate(_xStr, _yStr);
     transforms.push_back(translate);
+  }
+  else
+  {
+    QMessageBox msgBox;
+    msgBox.setText("Ingrsa unos valores para la traslación");
+    msgBox.exec();
   }
   update();
 }
