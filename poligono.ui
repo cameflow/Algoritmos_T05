@@ -16,11 +16,16 @@
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>-150</x>
      <y>610</y>
      <width>341</width>
      <height>32</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
@@ -32,9 +37,9 @@
   <widget class="QTextEdit" name="ladosPoliTxt">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>580</y>
-     <width>91</width>
+     <x>700</x>
+     <y>30</y>
+     <width>41</width>
      <height>21</height>
     </rect>
    </property>
@@ -42,86 +47,116 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>560</y>
+     <x>700</x>
+     <y>10</y>
      <width>59</width>
      <height>16</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Lados</string>
+    <string>LADOS</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>600</y>
+     <x>760</x>
+     <y>10</y>
      <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Dibuja</string>
+    <string>DRAW</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>600</y>
-     <width>131</width>
+     <x>760</x>
+     <y>130</y>
+     <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Rotate</string>
+    <string>ROTATE</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>550</y>
-     <width>130</width>
+     <x>760</x>
+     <y>50</y>
+     <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Zoom Out</string>
+    <string>ZOOM OUT</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>600</y>
+     <x>760</x>
+     <y>90</y>
      <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Zoom In</string>
+    <string>ZOOM IN</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>550</y>
+     <x>760</x>
+     <y>250</y>
      <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Translate</string>
+    <string>TRANSLATE</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="transX">
    <property name="geometry">
     <rect>
-     <x>440</x>
-     <y>620</y>
+     <x>790</x>
+     <y>320</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -130,8 +165,8 @@
   <widget class="QTextEdit" name="transY">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>620</y>
+     <x>790</x>
+     <y>360</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -140,53 +175,91 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>600</y>
-     <width>71</width>
+     <x>790</x>
+     <y>300</y>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Translate X</string>
+    <string>TRANSLATE X</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>600</y>
-     <width>71</width>
+     <x>790</x>
+     <y>340</y>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Translate Y</string>
+    <string>TRANSLATE Y</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_6">
    <property name="geometry">
     <rect>
-     <x>430</x>
-     <y>550</y>
-     <width>130</width>
+     <x>760</x>
+     <y>170</y>
+     <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Reflexión Hor</string>
+    <string>REFLEX HOR</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_7">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>550</y>
+     <x>760</x>
+     <y>210</y>
      <width>141</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
    <property name="text">
-    <string>Reflexión Vert</string>
+    <string>REFLEX VER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>630</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Copyright © 2015 Alejandro Terrazas</string>
    </property>
   </widget>
  </widget>
