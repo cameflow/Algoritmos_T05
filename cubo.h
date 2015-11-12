@@ -28,9 +28,9 @@ private:
 
 protected:
     void paintEvent(QPaintEvent *e);  //Función que pinta
-    void drawCube(QPainter & painter);//Función para hacer el poligono
+    void drawCube(QPainter & painter);//Función para hacer el cubo
 
-    //Botones de la interfaz de el polígono
+    //Botones de la interfaz de el cubo
 private slots:
     void on_pushButton_clicked();
     void on_pushButton_2_clicked();

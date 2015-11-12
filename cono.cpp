@@ -22,7 +22,7 @@ cono::cono(QWidget *parent) :
 
 cono::~cono()
 {
-    delete ui;
+  delete ui;
 }
 
 void cono::paintEvent(QPaintEvent *e)
