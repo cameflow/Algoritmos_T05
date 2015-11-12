@@ -17,92 +17,140 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>80</y>
-      <width>171</width>
-      <height>51</height>
+      <x>50</x>
+      <y>120</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Poígono</string>
+     <string>POLÍGONO</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>130</y>
-      <width>171</width>
-      <height>51</height>
+      <x>240</x>
+      <y>120</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Arco</string>
+     <string>ARCO</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>180</y>
-      <width>171</width>
-      <height>51</height>
+      <x>430</x>
+      <y>120</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Cubo</string>
+     <string>CUBO</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>230</y>
-      <width>171</width>
-      <height>51</height>
+      <x>50</x>
+      <y>210</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Prisma Triangular</string>
+     <string>PRISMA TRIANGULAR</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>20</y>
-      <width>181</width>
-      <height>31</height>
+      <x>60</x>
+      <y>30</y>
+      <width>561</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>29</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
     <property name="text">
-     <string>Selecciona una Figura</string>
+     <string>SELECCIONE UNA FIGURA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>280</y>
-      <width>171</width>
-      <height>51</height>
+      <x>240</x>
+      <y>210</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Prisma rectangular</string>
+     <string>PRISMA RECTANGULAR</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>330</y>
-      <width>171</width>
-      <height>51</height>
+      <x>430</x>
+      <y>210</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Cono</string>
+     <string>CONO</string>
     </property>
    </widget>
   </widget>
